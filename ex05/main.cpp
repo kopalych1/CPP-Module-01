@@ -6,7 +6,7 @@
 /*   By: akostian <akostian@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/07 12:29:43 by akostian          #+#    #+#             */
-/*   Updated: 2025/03/07 20:27:15 by akostian         ###   ########.fr       */
+/*   Updated: 2025/03/10 15:31:45 by akostian         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,8 @@ int main(int argc, char const *argv[])
 	harl.complain("INFO");
 	harl.complain("123");
 	harl.complain("DEBUG");
-	harl.complain("WARN");
-	harl.complain("WARN");
+	harl.complain("WARNING");
+	harl.complain("WARNING");
 	harl.complain("INFO");
 	harl.complain("INFO");
 	harl.complain("HELL0");

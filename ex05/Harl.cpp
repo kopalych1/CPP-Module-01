@@ -6,7 +6,7 @@
 /*   By: akostian <akostian@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/07 12:29:39 by akostian          #+#    #+#             */
-/*   Updated: 2025/03/07 20:33:07 by akostian         ###   ########.fr       */
+/*   Updated: 2025/03/10 15:31:33 by akostian         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,7 @@ void	Harl::complain( std::string level )
 	dict_item	funcs[4] = {
 		{"DEBUG",	&Harl::debug},
 		{"INFO",	&Harl::info},
-		{"WARN",	&Harl::warning},
+		{"WARNING",	&Harl::warning},
 		{"ERROR",	&Harl::error}
 	};
 
@@ -70,13 +70,4 @@ void	Harl::complain( std::string level )
 		return;
 	}
 	std::cout << "[" MAG "NOT IMPORTANT" CRESET "]\n";
-
-	// if (level == "debug")
-	// 	this->debug();
-	// else if (level == "info")
-	// 	this->info();
-	// else if (level == "warning")
-	// 	this->warning();
-	// else if (level == "error")
-	// 	this->error();
 }
